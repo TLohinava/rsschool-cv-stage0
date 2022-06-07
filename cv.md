@@ -1,7 +1,7 @@
 # Tatsiana Lohinava
 ## Contact info
 * [LinkedIn](https://www.linkedin.com/in/tatsiana-lohinava-a7312518a/)
-* **Discord:** @tandsympathy#5116
+* **Discord:** tandsympathy(@TLohinava)
 ## About me
 Hi, I am a pediatrician-turned-developer, eager to learn, try out new stuff and experiment.
 ## Skills

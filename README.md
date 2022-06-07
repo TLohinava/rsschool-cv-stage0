@@ -1,2 +1,2 @@
 # rsschool-cv
-[сurriculum vitae](https://github.com/TLohinava/rsschool-cv/blob/gh-pages/cv.md)
+https://github.com/TLohinava/rsschool-cv/blob/rsschool-cv-html/cv.md

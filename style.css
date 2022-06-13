@@ -38,6 +38,7 @@ main {
 
 aside {
   grid-area: aside;
+  margin: 50px
 }
 
 footer {

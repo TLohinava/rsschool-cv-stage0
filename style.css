@@ -33,6 +33,7 @@ header {
 
 main {
   grid-area: main;
+  padding: 20px
 }
 
 aside {

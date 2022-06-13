@@ -24,6 +24,11 @@ body {
 
 header {
   grid-area: header;
+  padding: 50px;
+}
+
+.header__el {
+  text-transform: uppercase;
 }
 
 main {

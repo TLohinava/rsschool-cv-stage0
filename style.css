@@ -16,30 +16,41 @@ a {
 .container {
   display: grid;
   grid-template-columns: 300px auto;
-  grid-template-rows: 400px auto 150px;
+  grid-template-rows: 300px auto 150px;
   grid-template-areas: "aside header"
                       "aside main"
                       "footer footer";
   margin: 100px auto;
   overflow: hidden;
   max-width: 1000px;
-  height: 2000px;
+  height: 1700px;
   background-color: rgba(255,255,255,255);
   box-shadow: rgb(52,66,59) 0px 0px 100px;
 }
 
 header {
   grid-area: header;
-  padding: 50px;
+  padding-top: 100px;
+  margin-left: -250px;
+  z-index: 2;
 }
 
 .header__el {
   text-transform: uppercase;
 }
 
+h1.header__el {
+  font-size: 2.85em;
+}
+
+h2.header__el {
+  font-size: 1em;
+}
+
 main {
   grid-area: main;
-  padding: 20px
+  padding-right: 50px;
+  padding-left: 80px;
 }
 
 aside {

@@ -42,10 +42,12 @@ header {
 
 h1.header__el {
   font-size: 2.85em;
+  color: rgb(52,66,59);
 }
 
 h2.header__el {
   font-size: 1em;
+  color: white;
 }
 
 .header__line {
@@ -59,6 +61,7 @@ h2.header__el {
   position: absolute;
   right: 0;
   bottom: 50px;
+  fill: rgb(52,66,59);
 }
 
 main {
@@ -82,12 +85,13 @@ aside {
   position: relative;
   left: 30px;
   bottom: 30px;
-  background-color: rgba(143,166,156,255);
+  background-color: rgb(52,66,59);
   height: 100%;
   display: flex;
   flex-direction: column;
   padding-top: 200px;
   justify-content: space-evenly;
+  color: whitesmoke;
 }
 
 .aside__block--image {
@@ -109,6 +113,10 @@ aside {
 .aside__block--line {
   height: 2px;
   margin-top: 50px;
+}
+
+.aside__block--link {
+  color: whitesmoke;
 }
 
 footer {

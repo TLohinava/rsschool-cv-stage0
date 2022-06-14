@@ -32,6 +32,7 @@ header {
   grid-area: header;
   padding-top: 100px;
   margin-left: -250px;
+  position: relative;
   z-index: 2;
 }
 
@@ -47,13 +48,17 @@ h2.header__el {
   font-size: 1em;
 }
 
+.header__rect {
+  position: absolute;
+  right: 0;
+}
+
 main {
   grid-area: main;
 }
 
 .main__content {
-  padding-right: 50px;
-  padding-left: 80px;
+  padding: 30px 50px 30px 80px;
   line-height: 2em;
 }
 

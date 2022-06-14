@@ -115,7 +115,7 @@ footer {
   grid-area: footer;
   background-color: rgb(52,66,59);
   display: flex;
-  padding-left: 50px;
+  padding-left: 30px;
   align-items: center;
   gap:20px;
 }

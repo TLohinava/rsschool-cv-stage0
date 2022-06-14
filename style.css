@@ -30,7 +30,7 @@ a {
 
 header {
   grid-area: header;
-  padding-top: 100px;
+  padding-top: 30px;
   margin-left: -250px;
   position: relative;
   z-index: 2;
@@ -48,9 +48,17 @@ h2.header__el {
   font-size: 1em;
 }
 
+.header__line {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px;
+}
+
 .header__rect {
   position: absolute;
   right: 0;
+  bottom: 50px;
 }
 
 main {
@@ -78,7 +86,7 @@ aside {
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding-top: 300px;
+  padding-top: 180px;
   justify-content: space-evenly;
 }
 

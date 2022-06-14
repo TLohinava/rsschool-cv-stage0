@@ -16,7 +16,7 @@ a {
 
 .container {
   display: grid;
-  grid-template-columns: 300px auto;
+  grid-template-columns: 340px auto;
   grid-template-rows: 300px auto 100px;
   grid-template-areas: "aside header"
                       "aside main"

@@ -39,6 +39,8 @@
     <main>
       <hr />
       <div class="main__content">
+        <h3>Skills</h3>
+        <p>HTML &bull; CSS &bull; JavaScript &bull; Git</p>
         <h3>Relevant courses</h3>
         <ul>
           <li>
@@ -70,7 +72,66 @@
             Belarusian native
           </li>
         </ul>
+        <h3>Code example</h3>
+        <p>It took me a couple of days to come up with a solution for <a href="https://leetcode.com/problems/two-sum/" target="_blank">this here LeetCode problem</a> so why not to boast it?</p>
+        <pre>var twoSum = function(nums, target) {
+            let newArr =[];
+            for(let j = 0; j < nums.length; j++) {
+                let newNumber = target - nums[j];
+                    if(nums.indexOf(newNumber) > j) {
+                        newArr.push(j);
+                        newArr.push(nums.indexOf(newNumber));
+                        break;
+                    } else if (newNumber === nums[j]) {
+                        if (nums.indexOf(newNumber, j + 1) === -1){
+                            continue;
+                        } else {
+                            newArr.push(j);
+                            newArr.push(nums.indexOf(newNumber, j + 1));
+                            break;
+                        }
+                    }
+            } return newArr;
+          }
+        </pre>
         <h3>Projects</h3>
+        <ul>
+          <li>
+            My final projects for the IT-Academy course:
+          </li>
+            <ul>
+              <li>
+                <a href="https://github.com/TLohinava/ITA_Final_assignment_Wooder" target="_blank">
+                  Wooder
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/TLohinava/ITA_Final_assignment_Smile" target="_blank">
+                  Lorem page
+                </a>
+              </li>
+            </ul>
+          <li>
+            Several small projects for the freeCodeCamp Responsive Web Design Course:
+          </li>
+            <ul>
+              <li>
+                <a href="https://codepen.io/tlohinava/pen/GRyOMKj" target="_blank">
+                  Survey Form
+                </a>
+              </li>
+              <li>
+                <a href="https://codepen.io/tlohinava/pen/MWQeVrr" target="_blank">
+                  Tech documentation page
+                </a>
+              </li>
+              <li>
+                <a href="https://codepen.io/tlohinava/pen/mdpXvpe" target="_blank">
+                  Product Landing Page
+                </a>
+              </li>
+            </ul>
+        </ul>
       </div>
     </main>
     <footer>

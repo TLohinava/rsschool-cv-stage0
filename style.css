@@ -49,8 +49,12 @@ h2.header__el {
 
 main {
   grid-area: main;
+}
+
+.main__content {
   padding-right: 50px;
   padding-left: 80px;
+  line-height: 2em;
 }
 
 aside {

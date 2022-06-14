@@ -91,9 +91,9 @@ aside {
 }
 
 .aside__block--image {
-  width: 100%;
-  height: 500px;
   background: grey;
+  height: 500px;
+  object-fit: none;
 }
 
 .aside__block--text {
@@ -121,4 +121,8 @@ footer {
 
 .footer__text {
   color: whitesmoke;
+}
+
+.footer__img {
+  height: 50px;
 }

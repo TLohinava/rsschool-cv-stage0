@@ -2,6 +2,7 @@
 
 * {
   font-family: 'Montserrat';
+  box-sizing: border-box;
 }
 
 body {
@@ -23,7 +24,6 @@ a {
   margin: 100px auto;
   overflow: hidden;
   max-width: 1000px;
-  /* height: 1700px; */
   background-color: rgba(255,255,255,255);
   box-shadow: rgb(52,66,59) 0px 0px 100px;
 }
@@ -68,13 +68,13 @@ aside {
 .aside__block {
   position: relative;
   left: 30px;
-  bottom: 50px;
+  bottom: 30px;
   background-color: rgba(143,166,156,255);
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  /* gap: 50px; */
+  padding-top: 300px;
+  justify-content: space-evenly;
 }
 
 .aside__block--image {
@@ -84,7 +84,7 @@ aside {
 }
 
 .aside__block--text {
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .aside__block--list {
@@ -93,7 +93,8 @@ aside {
 }
 
 .aside__block--line {
-  margin-top: 150px;
+  height: 2px;
+  margin-top: 50px;
 }
 
 footer {

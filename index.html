@@ -1,1 +1,171 @@
-<h1>curriculum vitae</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tatsiana's CV</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="header__el"><span style="color: white">Tatsiana L</span>ohinava</h1>
+      <h2 class="header__el">Front-end developer</h2>
+      <svg class="header__line">
+        <line x1=1px x2=1px y1=0px y2=150px stroke="#725260" stroke-width=1px>
+        </line>
+      </svg>
+      <svg class="header__rect" width="50" height="50">
+        <rect width="50" height="50" />
+      </svg>
+    </header>
+    <aside>
+      <div class="aside__block">
+
+        <img class="aside__block--image" src="https://sun9-east.userapi.com/sun9-75/s/v1/ig2/-GJYBz8cfY4EIcWijL7kGVboVuBl1ebesz7elWFz3vJ4qXhzMApqclLSDFckqpjuR7jybNeC681VgI8Vl-kN-T_E.jpg?size=798x1080&quality=96&type=album" alt="Tatsiana's profile photo" />
+        <div class="aside__block--wrap">
+          <h3 class="aside__block--text">About me</h3>
+          <p class="aside__block--text">Hi, I am a pediatrician-turned-developer, eager to learn, try out new stuff and experiment.</p>
+        </div>
+        <div class="aside__block--wrap">
+          <h3 class="aside__block--text">Skills</h3>
+          <p class="aside__block--text">HTML &bull; CSS &bull; JavaScript &bull; Git</p>
+        </div>
+        <div class="aside__block--wrap">
+          <h3 class="aside__block--text">Languages</h3>
+          <ul>
+            <li>
+              English C1-C2
+            </li>
+            <li>
+              German B2-C1
+            </li>
+            <li>
+              Russian native
+            </li>
+            <li>
+              Belarusian native
+            </li>
+          </ul>
+        </div>
+        <div class="aside__block--wrap">
+          <h3 class="aside__block--text">
+            Formal Education
+          </h3>
+          <p class="aside__block--text">
+            Belarusian State Medical University (2010-2016)
+          </p>
+        </div>
+        <svg class="aside__block--line">
+          <line x1=0px x2=150px y1=1px y2=1px stroke="#FFFFFF" stroke-width=1px>
+          </line>
+        </svg>
+        <ul class="aside__block--text aside__block--list">
+          <li>
+            Minsk, Belarus
+          </li>
+          <li>
+            <a class="aside__block--link" href="https://www.linkedin.com/in/tatsiana-lohinava-a7312518a/" target="_blank">LinkedIn</a>
+          </li>
+          <li>Discord: tandsympathy#5116(@TLohinava)</li>
+          <li>
+            <a class="aside__block--link" href="mailto:lohinava.t@gmail.com">lohinava.t@gmail.com</a>
+          </li>
+          
+        </ul>
+      </div>
+    </aside>
+    <main>
+      <hr />
+      <div class="main__content">
+        <h3>Relevant courses</h3>
+        <ul>
+          <li>
+            "Website development using HTML, CSS, JavaScript", IT Academy
+          </li>
+          <li>
+            Udacity courses, such as Intro to JavaScript, JavaScript and DOM, ES6, Object-Oriented JavaScript, etc.
+          </li>
+          <li>
+            edX JavaScript Introduction course
+          </li>
+          <li>
+            freeCodeCamp Responsive Web Design, JavaScript Algorithms and Data Structures
+          </li>
+        </ul>
+
+        <h3>Code example</h3>
+        <p>It took me a couple of days to come up with a solution for <a href="https://leetcode.com/problems/two-sum/" target="_blank">this here LeetCode problem</a> so why not to boast it?</p>
+        <pre>var twoSum = function(nums, target) {
+            let newArr =[];
+            for(let j = 0; j &lt; nums.length; j++) {
+                let newNumber = target - nums[j];
+                    if(nums.indexOf(newNumber) > j) {
+                        newArr.push(j);
+                        newArr.push(nums.indexOf(newNumber));
+                        break;
+                    } else if (newNumber === nums[j]) {
+                        if (nums.indexOf(newNumber, j + 1) === -1){
+                            continue;
+                        } else {
+                            newArr.push(j);
+                            newArr.push(nums.indexOf(newNumber, j + 1));
+                            break;
+                        }
+                    }
+            } return newArr;
+          }
+        </pre>
+        <h3>Projects</h3>
+        <ul>
+          <li>
+            My final projects for the IT-Academy course:
+            <ul>
+              <li>
+                <a href="https://github.com/TLohinava/ITA_Final_assignment_Wooder" target="_blank">
+                  Wooder
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/TLohinava/ITA_Final_assignment_Smile" target="_blank">
+                  Lorem page
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Several small projects for the freeCodeCamp Responsive Web Design Course:
+            <ul>
+              <li>
+                <a href="https://codepen.io/tlohinava/pen/GRyOMKj" target="_blank">
+                  Survey Form
+                </a>
+              </li>
+              <li>
+                <a href="https://codepen.io/tlohinava/pen/MWQeVrr" target="_blank">
+                  Tech documentation page
+                </a>
+              </li>
+              <li>
+                <a href="https://codepen.io/tlohinava/pen/mdpXvpe" target="_blank">
+                  Product Landing Page
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <a href="https://rs.school/js/" target="_blank">
+        <img class="footer__img" src="https://rs.school/images/partners/logo-rs.svg" alt="RSSchool logo" />
+      </a>
+      <a href="https://github.com/TLohinava" target="_blank">
+        <img class="footer__img" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub logo" />
+      </a>
+      <p class="footer__text">2022</p>
+    </footer>
+  </div>
+</body>
+</html>

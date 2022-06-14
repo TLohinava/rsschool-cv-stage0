@@ -1,3 +1,136 @@
-h1 {
-  color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(208,208,208,255);
+  
+}
+
+a {
+  color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 340px auto;
+  grid-template-rows: 300px auto 100px;
+  grid-template-areas: "aside header"
+                      "aside main"
+                      "footer footer";
+  margin: 100px auto;
+  overflow: hidden;
+  max-width: 1000px;
+  background-color: rgba(255,255,255,255);
+  box-shadow: rgb(52,66,59) 0px 0px 100px;
+}
+
+header {
+  grid-area: header;
+  padding-top: 30px;
+  margin-left: -250px;
+  position: relative;
+  z-index: 2;
+}
+
+.header__el {
+  text-transform: uppercase;
+}
+
+h1.header__el {
+  font-size: 2.85em;
+  color: #725260;
+}
+
+h2.header__el {
+  font-size: 1em;
+  color: white;
+}
+
+.header__line {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px;
+}
+
+.header__rect {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  fill: #725260;
+}
+
+main {
+  grid-area: main;
+}
+
+.main__content {
+  padding: 30px 50px 30px 80px;
+  line-height: 2em;
+}
+
+pre {
+  background: rgb(245,245,245);
+}
+
+aside {
+  grid-area: aside;
+}
+
+.aside__block {
+  position: relative;
+  left: 30px;
+  bottom: 30px;
+  background-color: #725260;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  justify-content: space-evenly;
+  color: whitesmoke;
+}
+
+.aside__block--image {
+  background: grey;
+  height: 500px;
+  object-fit: none;
+}
+
+.aside__block--text {
+  padding: 0 20px;
+  line-height: 2em;
+}
+
+.aside__block--list {
+  list-style-type: none;
+  line-height: 2em;
+}
+
+.aside__block--line {
+  height: 2px;
+}
+
+.aside__block--link {
+  color: whitesmoke;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #725260;
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+  gap:20px;
+}
+
+.footer__text {
+  color: whitesmoke;
+}
+
+.footer__img {
+  height: 50px;
 }

@@ -42,7 +42,7 @@ header {
 
 h1.header__el {
   font-size: 2.85em;
-  color: rgb(52,66,59);
+  color: #725260;
 }
 
 h2.header__el {
@@ -61,7 +61,7 @@ h2.header__el {
   position: absolute;
   right: 0;
   bottom: 50px;
-  fill: rgb(52,66,59);
+  fill: #725260;
 }
 
 main {
@@ -85,7 +85,7 @@ aside {
   position: relative;
   left: 30px;
   bottom: 30px;
-  background-color: rgb(52,66,59);
+  background-color: #725260;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -121,7 +121,7 @@ aside {
 
 footer {
   grid-area: footer;
-  background-color: rgb(52,66,59);
+  background-color: #725260;
   display: flex;
   padding-left: 30px;
   align-items: center;

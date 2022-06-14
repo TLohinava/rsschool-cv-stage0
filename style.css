@@ -86,7 +86,7 @@ aside {
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding-top: 180px;
+  padding-top: 200px;
   justify-content: space-evenly;
 }
 
@@ -98,6 +98,7 @@ aside {
 
 .aside__block--text {
   padding: 0 20px;
+  line-height: 2em;
 }
 
 .aside__block--list {

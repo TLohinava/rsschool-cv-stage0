@@ -48,7 +48,6 @@
           <line x1=0px x2=150px y1=1px y2=1px stroke="#000000" stroke-width=1px>
           </line>
         </svg>
-        <!-- <h3 class="aside__block--text">Contact info</h3> -->
         <ul class="aside__block--text aside__block--list">
           <li>
             Minsk, Belarus
@@ -56,9 +55,11 @@
           <li>
             <a href="https://www.linkedin.com/in/tatsiana-lohinava-a7312518a/">LinkedIn</a>
           </li>
+          <li>Discord: tandsympathy#5116(@TLohinava)</li>
           <li>
             <a href="mailto:lohinava.t@gmail.com">lohinava.t@gmail.com</a>
           </li>
+          
         </ul>
       </div>
     </aside>
@@ -85,7 +86,7 @@
         <p>It took me a couple of days to come up with a solution for <a href="https://leetcode.com/problems/two-sum/" target="_blank">this here LeetCode problem</a> so why not to boast it?</p>
         <pre>var twoSum = function(nums, target) {
             let newArr =[];
-            for(let j = 0; j < nums.length; j++) {
+            for(let j = 0; j &lt; nums.length; j++) {
                 let newNumber = target - nums[j];
                     if(nums.indexOf(newNumber) > j) {
                         newArr.push(j);

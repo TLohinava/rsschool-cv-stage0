@@ -45,6 +45,10 @@ h1.header__el {
   color: #725260;
 }
 
+span.header__el--start {
+  color: white;
+}
+
 h2.header__el {
   font-size: 1em;
   color: white;
@@ -95,7 +99,6 @@ aside {
 }
 
 .aside__block--image {
-  background: grey;
   height: 500px;
   object-fit: none;
 }

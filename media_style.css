@@ -1,0 +1,53 @@
+@media (max-width: 1000px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 300px auto auto 100px;
+    grid-template-areas: "header"
+                        "aside"
+                        "main"
+                        "footer";
+    margin: 100px auto;
+  }
+
+  header {
+    margin-left: 20px;
+  }
+
+  h1.header__el {
+    font-size: 2.85em;
+    color: #725260;
+  }
+
+  span.header__el--start {
+    color: #725260;
+  }
+  
+  .aside__block {
+    left: 0;
+    bottom: 0;
+    padding-top: 0px;
+  }
+
+  .main__content {
+    padding: 30px 50px;
+    line-height: 2em;
+  }
+
+  footer {
+    padding-left: 0;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 725px) {
+  .container {
+    margin: 0 auto;
+    min-width: 595px;
+  }
+
+  h1.header__el {
+    width: 400px;
+  }
+
+}
